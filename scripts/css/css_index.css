@@ -1,0 +1,146 @@
+﻿/* css */
+
+/* lilach:      #b8a4ce */
+/* lightblue:   #cce5ff */
+/* lightblue2:  #b1d0f5 */
+/* grey-blue:   #b2b6c3 */
+/* grey-blue2:  #b4adbb */
+/* lightpurple: #b2a4d4 */
+
+* {
+    box-sizing: border-box;
+}
+
+/* Set height of body and the document to 100% */
+body, html {
+    height: 100%;
+    margin: 0;
+    font-family: Bahnschrift;
+    font-size: 14px;
+}
+
+#footer {
+    padding: 0;
+    background-color: darkslategray;
+}
+
+#footer p {
+    padding: 0 20px;
+    color: white;
+    font-size: 12px;
+}
+
+#footerText {
+    padding-top: 20px;
+}
+
+#copyright {
+    padding-top: 20px;
+    background-color: darkgray;
+    font-size: 12px;
+}
+
+/* Style tab links 2 - 4 tabs */
+.tablink {
+    background-color: #b8a4ce; /* lilach */
+    color: white;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    font-size: 17px;
+    width: 25%;
+}
+
+.tablink:hover {
+    background-color: #777;
+}
+
+/* Style the tab content */
+.tabcontent {
+    color: white;
+    display: none;
+    padding: 50px 15px; 
+    height: 300px;
+ }
+
+/* Style col-wrapper */
+.seven-star-wrapper {
+    float: right;
+    margin: 1%;
+}
+
+.col-wrapper {
+    margin: 0 auto;
+}
+
+.col-wrapper:after {
+    content:"";
+    display: block;
+    clear: both;
+}
+
+#img-seven-stars, #img-delux-hotels {
+    float: right;
+    margin: 10px;
+}
+
+/* Image Slider */
+#img-slider {
+    width: 1348px; /* 1440 720 */
+    height: 280px; /* 400 */
+    overflow: hidden;
+}
+
+#img-slider .img-slides {
+    display: block;
+    width: 6000px ; 
+    height: 280px; /* 400 */
+    margin: 0;
+    padding: 0;
+}
+
+#img-slider .img-slide {
+    float: left;
+    list-style-type: none;
+    width: 480px;  /* 720 */
+    height: 280px; /* 400 */
+}
+
+/* Style Lists */
+.special-offers-body {
+    font-family: 'Oswald', sans-serif;
+    letter-spacing: 1px;
+}
+
+#specialOffersListBox ul {
+    background: #b4adbb; /* grey-blue */
+    padding: 10px;
+    background: linear-gradient(-45deg, powderblue, lightslategrey);
+}
+
+#specialOffersListBox ul li {
+    margin: 10px;
+    border: 10px;    
+    padding: 20px;
+    text-align: center;
+    text-decoration: underline;
+    list-style: none;
+    background: azure;
+ }
+
+#specialOffersListBox ul li a:hover {
+    transition: 0.5s;
+    padding-left: 30px;
+    padding-right: 10px;
+}
+
+.special-offers-item {
+    padding: 10px;
+    border: 1px dashed purple;
+    list-style-type: disc;
+    background: linear-gradient(-45deg, white, #b1d0f5); /* lightblue2 */
+}
+
+

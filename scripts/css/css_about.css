@@ -1,0 +1,98 @@
+﻿/* css */
+
+body {
+    font-family: 'Oswald', sans-serif;
+    letter-spacing: 1.5px;
+    font-size: 14px;
+    margin: 0;
+}
+
+html {
+    box-sizing: border-box;
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+.row{
+    padding: 10px;
+}
+
+.column {
+    float: left;
+    width: 25%;
+    margin-bottom: 16px;
+    padding: 0 8px;
+}
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4);
+    margin: 8px;
+    background: lightseagreen;  
+    font-size: 16px;
+    font-family: "Palatino Linotype", sans-serif;
+}
+
+.about-section {
+    padding: 20px;
+    text-align: center;
+    color: white;
+    background: darkslategrey;
+}
+
+.branches-section {
+    margin: 50px;
+    padding: 10px 50px 50px;
+    text-align: center;
+    background-color: lightgrey;
+    color: white;
+    font-family: 'Oswald', sans-serif;
+}
+
+.container {
+    padding: 0 16px;
+}
+
+.container h4 {
+    text-align: left;
+    letter-spacing: 1px;
+    font-family: 'Oswald', sans-serif;
+}
+
+.container::after, .row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.title {
+    color: midnightblue;
+}
+
+.contact {
+    border: none;
+    outline: 0;
+    display: inline-block;
+    padding: 8px;
+    color: white;
+    background-color: darkslategrey; 
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-family: 'Oswald', sans-serif;
+    font-size: 14px;
+    letter-spacing: 1.5px;
+}
+
+.contact:hover {
+    background-color: grey;
+}
+
+@media screen and (max-width: 650px) {
+    .column {
+        width: 100%;
+        display: block;
+        margin: 10px;
+    }
+}

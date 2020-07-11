@@ -1,0 +1,231 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Royal Ventures Website Sample</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Oswald:300,700|Varela+Round" rel="stylesheet">
+
+    <!-- my headers -->
+    <link rel="stylesheet" type="text/css" href="../css/css_index.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <!-- note - js is loaded before the end of body section -->
+</head>
+
+<body>
+    <!-- Header Main Item -->
+    <div class="jumbotron text-center" style="margin-bottom:0; padding:5px 0;">
+        <!-- <h1>My First Bootstrap Page</h1> -->
+        <!-- <p>Resize this responsive page to see the effect!</p> -->
+        <!-- Header Image Slide Show -->
+        <div class="container-img-slide-show">
+            <div class="header-img-slide-show">
+                <!-- <h1 class="text-muted">jQuery Basic Slider</h1> -->
+            </div>
+
+            <div id="img-slider">
+                <div class="img-slides">
+                    <img src="../../img/ImgIndex/ImgSlideShow/img_sicily_001.jpg" class="img-slide slide1" alt="slide 1" />
+                    <img src="../../img/ImgIndex/ImgSlideShow/img_sicily_002.jpg" class="img-slide slide2" alt="slide 2" />
+                    <img src="../../img/ImgIndex/ImgSlideShow/img_sicily_003.jpg" class="img-slide slide3" alt="slide 3" />
+                    <img src="../../img/ImgIndex/ImgSlideShow/img_sicily_004.jpg" class="img-slide slide4" alt="slide 4" />
+                    <img src="../../img/ImgIndex/ImgSlideShow/img_sicily_005.jpg" class="img-slide slide5" alt="slide 5" />
+                    <img src="../../img/ImgIndex/ImgSlideShow/img_sicily_006.jpg" class="img-slide slide6" alt="slide 6" />
+                    <img src="../../img/ImgIndex/ImgSlideShow/img_sicily_001.jpg" class="img-slide slide1" alt="slide 1" />
+                    <img src="../../img/ImgIndex/ImgSlideShow/img_sicily_002.jpg" class="img-slide slide2" alt="slide 2" />
+                    <img src="../../img/ImgIndex/ImgSlideShow/img_sicily_003.jpg" class="img-slide slide3" alt="slide 3" />
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <!-- Header Menu -->
+    <nav class="navbar navbar-inverse" style="border:0;">
+        <div class="container-fluid" style="background:darkslategrey;">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#">RoyalVentures</a>
+            </div>
+            <div class="collapse navbar-collapse" id="myNavbar">
+                <ul class="nav navbar-nav">
+                    <li class="active"><a href="#" style="background:grey;">Home</a></li>
+                    <li><a href="./specialOffers.html">Vacations</a></li>
+                    <li><a href="./about.html">About Us</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Page Items -->
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-4">
+                <h2>LUXURY TRIPS</h2>
+                <p>We plan the most inspired ventures since 2016.<br />Join our exciting vacations today!</p>
+                <img src="../../img/imgIndex/ImgMain/img_woman_on_sea_001.jpg" alt="woman_on_sea" style="width:100%">
+                <br /><br />
+
+                <div class="special-offers">
+                    <h2>SPECIAL OFFERS</h2>
+                    <p>GET OUR SPECIAL OFFERS..</p>
+                    <div class="special-offers-body">
+                        <section class="special-offers-list-box" id="specialOffersListBox">
+                            <ul class="special-offers-list">
+                                <li><a href="#firstBoard">First Board</a></li>
+                                <li><a href="#royalBoard">Royal Board</a></li>
+                                <li><a href="#magesticBoard">Magestic Board</a></li>
+                            </ul>
+                        </section>
+                        <br />
+                        <section class="special-offers-items" id="specialOffersItems">
+                            <div class="special-offers-item" id="firstBoard">
+                                <h4>First Board</h4>
+                                <ul class="first-board">
+                                    <li>Casino</li>
+                                    <li>Free Soft Drinks</li>
+                                    <li>Duty Free</li>
+                                </ul>
+                            </div>
+                            <br />
+                            <div class="special-offers-item" id="royalBoard">
+                                <h4>Royal Board</h4>
+                                <ul class="royal-board">
+                                    <li>Royal Casino</li>
+                                    <li>Royal Private Decks</li>
+                                    <li>Free Alcohol Menu</li>
+                                    <li>Duty Free</li>
+                                    <li>Hair Salon</li>
+                                </ul>
+                            </div>
+                            <br />
+                            <div class="special-offers-item" id="magesticBoard">
+                                <h4>Magestic Board</h4>
+                                <ul class="magestic-board">
+                                    <li>Magestic Casino</li>
+                                    <li>Magestic Private Decks</li>
+                                    <li>Magestic Restaurants</li>
+                                    <li>Free Liquer Menu</li>
+                                    <li>Room Service</li>
+                                    <li>Duty Free</li>
+                                    <li>Hair Salon</li>
+                                </ul>
+                            </div>
+                        </section>
+                    </div> <!-- special-offers-body -->
+                </div>
+            </div> <!-- col-sm-4 -->
+
+
+            <div class="col-sm-8">
+                <section id="col2-item1">
+                    <h2>VACATION NEWS</h2>
+                    <h5>Last updated Jul 21, 2020</h5>
+                    <div class="col-wrapper">
+                        <img src="../../img/imgIndex/ImgMain/img_drink_on_sea_001.jpg" alt="drink_on_sea" style="width:65%">
+                        <img src="../../img/imgIndex/ImgMain/img_fish_001.jpg" alt="img_fish" style="width:23.5%">
+                        <img src="../../img/imgIndex/ImgMain/img_greylightblue_001.jpg" alt="img_greylightblue" style="width:9%">
+                        <br />
+                        <p>A relaxing afternoon..</p>
+                        <p>
+                            Unlock some of the most incredible travel destinations. Get on island time and unwind
+                            on some of the best beaches in the world, venture deep into the rainforests,
+                            and snorkel the most vibrant reefs on a Caribbean or Bahamas with the whole family.
+                            Travels.com is a leading online accommodation site. We’re passionate about travel. Every day,
+                            we inspire and reach millions of travelers across 90 local websites in 41 languages.
+                        </p><br />
+                        <p>
+                            So when it comes to booking the perfect hotel, vacation rental, resort, apartment, guest house,
+                            or tree house, we’ve got you covered. With hundreds of thousands of properties in over 200 countries and territories,
+                            we provide incomparable choice with a Price Guarantee.
+                            Our site is fun and simple to use, and we offer innovative online tools and a top-rated mobile app.
+                        </p>
+                    </div>
+                </section>
+                <br />
+                <section id="col2-item2">
+                    <h2>7-STARS HOLIDAY</h2>
+                    <h5>Explore exciting destinations..</h5>
+                    <div class="col-wrapper">
+                        <img src="../../img/imgIndex/ImgMain/‏‏img_alaska_001.jpg" alt="img_alaska" id="img-seven-stars" style="width:50%">
+                        <p>
+                            Thrilling entertainment, spacious accommodations, vast multitude of swanky lounges, chique bars, a world-class spa and more,
+                            are just some of the most loved signature features available on this gleaming offer.
+                        </p>
+                        <p>
+                            From a cutting-edge virtual world, to hair-raising water slides, she’s filled with never-ending indulgences to suit the tastes of
+                            each and everyone in the family.
+                            Anywhere in between the relaxing and doing nothing or seeing and participating in everything you miss a few indulgences,
+                            make a plan for return, this is absolutely the magic vacation you will not forget !!
+                            From its sprawling cities to its secret valleys, Asia is packed to brim of rich culture of non-replacable intensive natural beauty.
+                            You can also learn more about cancelations during at this time. For quick service, connect with our virtual agent.
+                            If you do not have a Hotels.com account, you can look up your booking confirmation details.
+                        </p>
+                    </div>
+                </section>
+                <br />
+                <section id="col2-item3">
+                    <h2>DELUX HOTELS</h2>
+                    <h5>Discover our high-class hotels..</h5>
+                    <div class="col-wrapper">
+                        <img src="../../img/imgIndex/ImgMain/img_hotel_irland_001.jpg" alt="img_hotel_irland" id="img-delux-hotels" style="width:45%">
+                        <p>
+                            Thrilling entertainment, spacious accommodations, an exciting multitude of swankly lounges, chiquoe bars,
+                            a world-class spa and more, are just some of the most aloved signature features available on this gleaming offer.
+                            Explore a cutting-edge virtual world, to a fully hair-raising water cascades, she’s filled with never-ending
+                            indulgences of everyone in the family.
+                        </p>
+                        <p>
+                            Anywhere in between the relaxing and doing nothing or seeing and participating in everything you missed a few indulgences,
+                            make a plan for return, this absolutely the magic vacation you will not forget !!
+                            From its high sprawling cities to its all secret valleys, Asia is packed to brim with rich culture non-replacable intensive natural beauty.
+                            You can also learn a much more about cancelations during at this time. For quick service, connect with our virtual agent
+                            for twenty-four hours a day service.
+                        </p>
+                        <p>
+                            Learn to dive in or go rock climb on Thailand's world-class beaches like Phra Nang or sunbathe on Malaysia's remotely
+                            Langkawi Island. See the Great Wall nestled in China's dramatic mountainsides, or a scale of iconic Mount Fuji in Japan.
+                            From discounted rates to free breakfasts and room upgrades, you'll always get more from travel with a Genius, Caring
+                            Travel.com's loyalty program. Sign in or create an account to get started.
+                        </p>
+                    </div>
+                </section>
+            </div> <!-- class col-sm-8 -->
+        </div> <!-- class row -->
+    </div> <!-- container -->
+
+    <!-- Footer-->
+    <footer class="page-footer">
+        <div class="jumbotron text-center" id="footer">
+            <div id="footerText"></div>
+             
+            <p>This is the Final Web Project!</p>
+            <div class="page-footer-text">
+                <p>
+                    We thank you for visiting our great site. Please place your order ASAP soon today !<br />
+                    Enjoy our most and exciting amazing site and choose your great preferred wonderful site ! <br />
+                    dssd gegpg hklldk yohtlrl ghttl gkll gggg saerd uiukh ssrtf uiutu 
+                </p>
+            </div>
+
+            <!-- Copyright -->
+            <div class="footer-copyright text-center py-3" id="copyright">
+                © 2020 Copyright:
+                <a href="https://mdbootstrap.com/"> HayaKornblau Ltd</a>
+            </div>
+
+        </div>
+    </footer>
+
+    <!-- js File -->
+    <script src="../js/js_index.js"></script>
+
+</body>
+</html>
