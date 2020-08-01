@@ -1,5 +1,13 @@
 ﻿/* css */
 
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+html {
+    box-sizing: border-box;
+}
+
 body {
     font-family: 'Oswald', sans-serif;
     letter-spacing: 1.5px;
@@ -7,35 +15,8 @@ body {
     margin: 0;
 }
 
-html {
-    box-sizing: border-box;
-}
-
-*, *:before, *:after {
-    box-sizing: inherit;
-}
-
-.row{
-    padding: 10px;
-}
-
-.column {
-    float: left;
-    width: 25%;
-    margin-bottom: 16px;
-    padding: 0 8px;
-}
-
-.card {
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4);
-    margin: 8px;
-    background: lightseagreen;  
-    font-size: 16px;
-    font-family: "Palatino Linotype", sans-serif;
-}
-
-.about-section {
-    padding: 20px;
+.header-section {
+    padding: 15px;
     text-align: center;
     color: white;
     background: darkslategrey;
@@ -64,6 +45,25 @@ html {
     content: "";
     clear: both;
     display: table;
+}
+
+.row {
+    padding: 10px;
+}
+
+.column {
+    float: left;
+    width: 25%;
+    margin-bottom: 16px;
+    padding: 0 8px;
+}
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4);
+    margin: 8px;
+    background: lightseagreen;
+    font-size: 16px;
+    font-family: "Palatino Linotype", sans-serif;
 }
 
 .title {
@@ -95,4 +95,25 @@ html {
         display: block;
         margin: 10px;
     }
+}
+
+#footer {
+    padding: 0;
+    background-color: darkslategray;
+}
+
+    #footer p {
+        padding: 0 20px;
+        color: white;
+        font-size: 12px;
+    }
+
+#footerText {
+    padding-top: 20px;
+}
+
+#copyright {
+    padding-top: 20px;
+    background-color: darkgrey;
+    font-size: 12px;
 }

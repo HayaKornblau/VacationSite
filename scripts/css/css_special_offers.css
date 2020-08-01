@@ -1,11 +1,11 @@
 ﻿/* css */
 
-html {
-    box-sizing: border-box;
-}
-
 *, *:before, *:after {
     box-sizing: inherit;
+}
+
+html {
+    box-sizing: border-box;
 }
 
 body {
@@ -14,50 +14,29 @@ body {
     font-size: 14px;
     margin: 0;
 }
-* {
-    box-sizing: border-box;
-}
 
 .header-section {
-    padding: 20px;
+    padding: 15px;
     text-align: center;
     color: white;
     background: darkslategrey;
 }
 
-.schedule-section {
+.special-offers-section {
     margin: 50px;
     padding: 10px 50px 50px;
     text-align: center;
-    background-color: lightgrey;
     color: white;
     font-family: 'Oswald', sans-serif;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4);
+    background: url("../../img/ImgSpecialOffers/fruits_001.jpg");
+    }
+
+.special-offers-section p {
+    font-size: 15px;
 }
 
-#footer {
-    padding: 0;
-    background-color: darkslategray;
-}
-
-#footer p {
-    padding: 0 20px;
-    color: white;
-    font-size: 12px;
-}
-
-#footerText {
-    padding-top: 20px;
-}
-
-#copyright {
-    padding-top: 20px;
-    background-color: darkgrey;   
-    font-size: 12px;
-}
-
-/* Style tab links 2 - 4 tabs */
 .tablink {
-    background-color: darkgrey; 
     color: white;
     float: left;
     border: none;
@@ -66,39 +45,22 @@ body {
     padding: 14px 16px;
     font-size: 17px;
     width: 25%;
+    font-family: 'Oswald', sans-serif;
+    letter-spacing: 1px;
+    background-color: darkgrey;
 }
 
 .tablink:hover {
     background-color: #777;
 }
 
-/* Style the tab content */
 .tabcontent {
     color: white;
     display: none;
-    padding: 50px 15px; 
-    height: 320px;
- }
-
-/* Style col-wrapper */
-.seven-star-wrapper {
-    float: right;
-    margin: 1%;
-}
-
-.col-wrapper {
-    margin: 0 auto;
-}
-
-.col-wrapper:after {
-    content:"";
-    display: block;
-    clear: both;
-}
-
-#img-seven-stars, #img-delux-hotels {
-    float: right;
-    margin: 10px;
+    padding: 40px 40px;
+    height: 250px;
+    font-size: 16px;
+    font-family: "Palatino Linotype", sans-serif;
 }
 
 #Families {
@@ -115,14 +77,4 @@ body {
 
 #Extreme {
     background-color: darkcyan;
-}
-
-#page-tabs-container {
-    padding: 40px;
-    margin: 35px;
-    background-color:  lavender;
-}
-
-.jumbotron p {
-    font-size: 15px;
 }
