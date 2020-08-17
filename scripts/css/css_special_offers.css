@@ -36,7 +36,7 @@ body {
     font-size: 15px;
 }
 
-.tablink {
+.tab-link {
     color: white;
     float: left;
     border: none;
@@ -50,11 +50,11 @@ body {
     background-color: darkgrey;
 }
 
-.tablink:hover {
+.tab-link:hover {
     background-color: #777;
 }
 
-.tabcontent {
+.tab-content {
     color: white;
     display: none;
     padding: 40px 40px;
@@ -64,17 +64,17 @@ body {
 }
 
 #Families {
-    background-color: cadetblue;
+    background-color: indianred; 
 }
 
 #Travelers {
-    background-color: lightslategrey;
+    background-color: seagreen;
 }
 
 #Adventure {
-    background-color: lightseagreen;
+    background-color: royalblue;
 }
 
 #Extreme {
-    background-color: darkcyan;
+    background-color: chocolate;
 }
